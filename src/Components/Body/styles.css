@@ -1,0 +1,215 @@
+
+.body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgba(182, 81, 250, 0.76);
+   
+}
+.resumeBox {
+    margin-top: 20px;
+    border-radius: 20px;
+     width: 800px;
+    height: 1000px;
+    background-color:rgb(41, 223, 223);
+    margin: 0 auto;
+}
+
+.header > h2 {
+    margin-bottom: 5px;
+    
+}
+.header > hr {
+    width: 65%;
+}
+.head {
+    margin-top: 15px;
+    margin-right: 43%;
+    font-family: system-ui;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.paraOne {
+    width: 50%;
+    background-color: rgb(250, 75, 75);
+    border-radius: 10px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 5px;
+    margin-left: 37%;
+}
+.paraTwo {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+    display: flex;
+    margin: 30px;
+    transition: .3s ease box-shadow;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: justify;
+    padding: 30px;
+    margin-left: 40%;
+}
+.paraTwo:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+.certOne {
+    width: 50%;
+    background-color: rgb(250, 75, 75);
+    border-radius: 10px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: justify; 
+    margin-top: 3px;
+    margin-left: 37%; 
+}
+.certTwo {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+    display: flex;
+    margin: 10px;
+    transition: .3s ease box-shadow;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 2%;
+    text-align: justify;
+    margin-left: 40%;
+}
+.certTwo:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+.aboutBox {
+    float: left;
+    background: rgb(199, 58, 152);
+    width: 35%;
+    height: 1000px;
+    margin: 0 auto;
+
+}
+.aboutBox > h2 {
+    margin-right: 15px;
+    margin-top: 80px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutBox > p {
+    color: rgb(255, 255, 255);
+    font-family: system-ui;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+.aboutBox > p > span {
+    padding-left: 20px;
+    color: rgb(250, 0, 0);
+    font-size: 15px;
+    font-weight: 800;
+    background-color: rgb(37, 219, 37);
+    border-radius: 5px;
+    text-align: center;
+}
+.aboutBox > .skill {
+    margin-right: 65%;
+    margin-top: 10%;
+}
+.aboutBox > .progressOne {
+    background-color: rgb(190, 245, 190);
+    width: 90%;
+    height: 8px;
+    border-radius: 13px;
+}
+.aboutBox > .progressOne::after {
+    content: '';
+    background-color: rgb(28, 241, 74);
+    width: 70%;
+    height: 8px;
+    display: block;
+    border-radius: 13px;
+
+}
+.aboutBox > .progressTwo {
+    background-color: rgb(190, 245, 190);
+    width: 90%;
+    height: 8px;
+    border-radius: 13px;
+} 
+.aboutBox > .progressTwo::after {
+    content: '';
+    width: 60%;
+    height: 8px;
+    background-color: rgb(28, 241, 74);
+    display: block;
+    border-radius: 13px;
+}
+.aboutBox > .progressThree {
+    background-color: rgb(190, 245, 190);
+    width: 90%;
+    height: 8px;
+    border-radius: 13px;
+} 
+.aboutBox > .progressThree::after {
+    content: '';
+    width: 70%;
+    height: 8px;
+    background-color: rgb(28, 241, 74);
+    display: block;
+    border-radius: 13px;
+}
+.aboutBox > .progressFour {
+    background-color: rgb(190, 245, 190);
+    width: 90%;
+    height: 8px;
+    border-radius: 13px;
+} 
+.aboutBox > .progressFour::after {
+    content: '';
+    width: 70%;
+    height: 8px;
+    background-color: rgb(28, 241, 74);
+    display: block;
+    border-radius: 13px;
+}
+.aboutBox > .progressFive {
+    background-color: rgb(190, 245, 190);
+    width: 90%;
+    height: 8px;
+    border-radius: 13px;
+} 
+.aboutBox > .progressFive::after {
+    content: '';
+    width: 70%;
+    height: 8px;
+    background-color: rgb(28, 241, 74);
+    display: block;
+    border-radius: 13px;
+}
+.aboutBox > .progressSix {
+    background-color: rgb(190, 245, 190);
+    width: 90%;
+    height: 8px;
+    border-radius: 13px;
+} 
+.aboutBox > .progressSix::after {
+    content: '';
+    width: 80%;
+    height: 8px;
+    background-color: rgb(28, 241, 74);
+    display: block;
+    border-radius: 13px;
+}
+
+
